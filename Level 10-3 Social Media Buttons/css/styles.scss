@@ -1,0 +1,59 @@
+@import "../scss/fontawesome.scss";
+@import "../scss/solid.scss";
+@import "../scss/brands.scss";
+
+.social-media {
+  padding-top: 20%;
+  line-height: 300%;
+  list-style-type: none;
+  width: 85px;
+  color: white;
+  font-size: 24px;
+  float: right;
+  position: fixed;
+  right: 0;
+  & li {
+    display: block;
+    width: 85px;
+    white-space: nowrap;
+    float: right;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    &:hover {
+      width: 400px;
+      float: right;
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;
+    }
+  }
+  & i {
+    padding: 0px 30px;
+    width: 25px;
+  }
+  & a {
+    color: white;
+  }
+  &__blog {
+    background-color: #e17b77;
+  }
+  &__facebook {
+    background-color: #3b5998;
+  }
+  &__twitter {
+    background-color: #00aced;
+  }
+
+  &__github {
+    background-color: #333;
+  }
+
+  &__linkedin {
+    background-color: #007bb6;
+  }
+}
